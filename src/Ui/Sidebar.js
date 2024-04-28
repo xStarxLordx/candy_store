@@ -32,7 +32,7 @@ function Sidebar() {
             <Icon.PersonFillUp size={40} className=''/>
             <p>Sign In</p>
           </a> */}
-          <a className='list-group-item list-group-item-action my-5 text-center bg-transparent' href='/signup'>
+          <a className='list-group-item list-group-item-action my-5 text-center bg-transparent' onClick={signOut} href='/signup'>
             <Icon.PersonFillAdd size={40} className='' />
             <p>Sign Up</p>
           </a>
@@ -40,13 +40,13 @@ function Sidebar() {
             <Icon.PersonFillX size={40} className=''/>
             <p>Sign Out</p>
           </a>
-          <a className=' list-group-item-action my-5 text-center bg-transparent' onClick={signOut} href='/'>
+          <a className=' list-group-item-action my-5 text-center bg-transparent' href='/'>
             
           </a>
-          <a className=' list-group-item-action my-5 text-center bg-transparent' onClick={signOut} href='/'>
+          <a className=' list-group-item-action my-5 text-center bg-transparent' href='/'>
             
           </a>
-          <a className=' list-group-item-action my-5 text-center bg-transparent' style={{height:"26px"}} onClick={signOut} href='/'>
+          <a className=' list-group-item-action my-5 text-center bg-transparent' style={{height:"26px"}} href='/'>
             
           </a>
           
